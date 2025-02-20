@@ -12,6 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from .chunk_mask import chunk_mask, pad_mask, tril_mask
+from .audio_mask import chunk_mask, pad_mask, tril_mask
 
-__all__ = ["pad_mask", "tril_mask", "chunk_mask"]
+__all__ = ["chunk_mask", "pad_mask", "tril_mask"]
